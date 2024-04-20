@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body, html{
+   background: url('imagens/izanami3.jpg') center no-repeat fixed;
+   background-size: 100%;
+   
+}
+
+#container{
+   width: 100%;
+   margin: 0 auto;
+   background: #0000005e;
+}
+
+#cabecalho{    
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 45px 0;
+    background: #0000005e;
+    
+ }
+
+ #cabecalho a{
+    text-decoration: none;
+    color: #ff0000;
+    padding: 0 30px;
+    background: #000000a1;
+    border-radius: 15px;
+
+ }
+
+ #cabecalho a:hover{ 
+   color: #ffffff;  
+   background: black;
+}
+
+ #cabecalho ul{
+   padding-top: 20px;
+ }
+
+ .caixa2{
+   width: 50%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between ;
+   padding-bottom: 5%;
+   
+ }
+
+ .direita{
+   margin: 5px;
+   width: 400px;
+   background: #000000a1;
+   border-radius: 15px;
+
+ }
+
+ .esquerda{
+   
+   width: 400px;
+   background: #000000a1;
+   border-radius: 15px;
+}
+
+.caixa{
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between ;
+   padding-bottom: 5%;
+ }
+
+ .direita{
+   margin: 5px;
+   width: 400px;
+   background: #000000c7;
+   border-radius: 15px;
+
+ }
+
+
+ .centro{
+   
+   width: 400px;
+   background: #000000cc;
+   border-radius: 15px;
+ }
+
+ .esquerda{
+   
+   width: 400px;
+   background: #000000c4;
+   border-radius: 15px;
+}
+
+h1{
+   text-align: center;
+   font-style: oblique;
+   color: #ff0000;
+}
+
+img{
+   border-radius: 20px;
+}
+
+p{
+   margin: 10px;
+   letter-spacing: 3px;
+   padding-left: 10px;
+   color: #ffffff;
+}
+ 
+
+ #rodape{
+    width: 100%;
+    background:#111111;
+    color: #ffffff;
+    height: 160px;
+    text-align: center;
+
+ }
+
+ #rodape ul {
+   padding-top: 30px;
+   text-align: center;
+   
+ }
+
+ #rodape ul a{
+  padding: 0 30px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #ff0000;
+ }
+
+ #rodape ul a:hover{
+   background: #ffffff;
+   color: #111111;
+   border-radius: 15px;
+ }
+
+ 
+
+
+ 
